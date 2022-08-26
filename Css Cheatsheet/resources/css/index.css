@@ -1,0 +1,51 @@
+/*Table Basics */
+
+h1 {
+    text-align: center;
+    background: url(../images/html-color-codes-color-tutorials.jpeg);
+    color: white;
+    height: 150px;
+    display: inline-block;
+    width: 100%;
+    line-height: 150px;
+    font-weight: 900;
+}
+
+h2 {
+    
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 2px solid gray;
+}
+
+th,td {
+    padding: 10px;
+    text-align: left;
+    
+}
+
+table td, th{
+    border: 2px solid gray;
+}
+
+/* typography */
+
+html {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+
+thead {
+    font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+td {
+    letter-spacing: 1px;
+    font-size: small;
+}
+
+/*graphics and colors */
+
